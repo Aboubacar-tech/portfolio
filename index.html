@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio professionnel de développeur web - ABOUTECH">
+  <meta name="author" content="Aboubacar">
+  <meta property="og:title" content="Portfolio Aboutech">
+  <meta property="og:description" content="Découvrez mes projets, compétences et parcours en développement web.">
+  <meta property="og:image" content="images/ma-photo.webp">
+  <meta property="og:type" content="website">
+  <title>Portfolio - ABOUTECH</title>
+  <link rel="icon" href="favicon.ico">
+
+  <!-- Styles -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+
+  <!-- Scripts -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script src="js/script.js"></script>
+  <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+</head>
+<body  data-bs-spy="scroll" data-bs-target="#mynavbar">
+
+  <nav id="mynavbar" class="navbar navbar-expand-lg navbar-dark sticky-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#About"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto">
+            <a class="nav-link active" href="#About">Moi</a>
+            <a class="nav-link" href="#Skills">Compétences</a>
+            <a class="nav-link" href="#education">Éducation</a>
+            <a class="nav-link" href="#portfolio">Portfolio</a>
+            <a class="nav-link" href="#recommendation">Recommandation</a>
+            <a class="nav-link" href="#contact">Contact</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+
+  <main>
+    <section id="About" class="container py-5 d-flex flex-column flex-md-row align-items-center">
+      <div class="text-center me-md-5">
+        <img src="image/ma-photo.jfif" alt="Photo de Aboubacar" class="rounded-circle img-fluid" style="max-width: 250px;">
+        <div class="home-sci mt-3">
+          <a href="https://www.facebook.com/profile.php?id=100063654983748" title="Facebook" aria-label="Facebook"><i class='bx bxl-facebook'></i></a>
+          <a href="#" title="Instagram" aria-label="Instagram"><i class='bx bxl-instagram'></i></a>
+          <a href="https://wa.me/22376577421" title="WhatsApp" aria-label="WhatsApp"><i class='bx bxl-whatsapp'></i></a>
+          <a href="https://www.linkedin.com/in/aboubacar-camara-78259b353?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" title="LinkedIn" aria-label="LinkedIn"><i class='bx bxl-linkedin'></i></a>
+          <a href="https://github.com/aboubacar-tech" title="GitHub" aria-label="GitHub"><i class='bx bxl-github'></i></a>
+        </div>
+      </div>
+      <div class="flex-grow-1 text-center text-md-start mt-4 mt-md-0">
+        <h1>Salut, je suis <br><span class="text" style="color: #0ef;"></span></h1>
+        <p class="lead fst-italic">Transformons vos idées en une expérience inoubliable !<br>Faisons-le ensemble !</p>
+        <a href="cv/CV_Final.pdf" class="btn mt-3" download>Télécharger mon CV</a>
+        <a href="#contact" class="btn mt-3">Contactez-moi</a>
+      </div>
+    </section>
+    
+
+
+    <section id="Skills" class="py-5">
+      <div class="container">
+        <div class="text-center mb-5">
+          <h2 class="text-uppercase text-primary">Compétences</h2>
+          <div class="divider"></div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="mb-4">
+              <label><i class='bx bxl-html5' style="color: #E34F26; font-size: 1.5rem;"></i> HTML</label>             
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 85%;">85%</div>
+              </div>
+            </div>
+            <div class="mb-4">
+              <label><i class='bx bxl-css3' style="color: #1572B6; font-size: 1.5rem;"></i> CSS</label>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 85%;">85%</div>
+              </div>
+            </div>
+            <div class="mb-4">
+              <label><i class='bx bxl-javascript' style="color: #F7DF1E; font-size: 1.5rem;"></i> JavaScript</label>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 50%;">50%</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="mb-4">
+              <label><i class='bx bxl-jquery' style="color: #0769AD; font-size: 1.5rem;"></i> jQuery</label>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 65%;">65%</div>
+              </div>
+            </div>
+            <div class="mb-4">
+              <label><i class='bx bxl-bootstrap' style="color: #7952B3; font-size: 1.5rem;"></i> Bootstrap</label>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 80%;">80%</div>
+              </div>
+            </div>
+            <div class="mb-4">
+              <label><i class='bx bxl-php' style="color: #777BB4; font-size: 1.5rem;"></i> PHP</label>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 50%;">50%</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="mb-4">
+              <label><i class="bi bi-terminal" style="color: #4479A1; font-size: 1.5rem;"></i> MySQL</label>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 55%;">55%</div>
+              </div>
+            </div>
+            <div class="mb-4">
+              <label><i class='bx bxl-wordpress' style="color: #21759B; font-size: 1.5rem;"></i> WordPress</label>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 70%;">70%</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="education" class="py-5  text-dark">
+      <div class="container">
+        <div class="text-center mb-5">
+          <h2 class="text-uppercase text-primary">Éducation</h2>
+          <div class="divider"></div>
+        </div>
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="education-blog p-4 bg-white shadow rounded text-center">
+              <h5>2025</h5>
+              <span class="bi bi-award-fill text-primary fs-3"></span>
+              <h4>  Üdemy</h4>
+              <p>Développement Web : HTML/CSS, JavaScript, jQuery, Bootstrap, PHP, MySQL, WordPress</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="education-blog p-4 bg-white shadow rounded text-center" >
+              <h5>2024</h5>
+              <span class="bi bi-award-fill text-primary fs-3"></span>
+              <h4>OpenClassrooms</h4>
+              <p style="margin-bottom: 60px;">Programmation JavaScript</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="education-blog p-4 bg-white shadow rounded text-center">
+              <h5>2024</h5>
+              <span class="bi bi-award-fill text-primary fs-3"></span>
+              <h4>OpenClassrooms</h4>
+              <p style="margin-bottom: 35px;">Formation Développeur Web (HTML/CSS)</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="education-blog p-4 bg-white shadow rounded text-center">
+              <h5>2024</h5>
+              <span class="bi bi-award-fill text-primary fs-3"></span>
+              <h4>Expert Lab-Technologie</h4>
+              <p>Généraliste Informatique</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="education-blog p-4 bg-white shadow rounded text-center">
+              <h5>2022-2023</h5>
+              <span class="bi bi-award-fill text-primary fs-3"></span>
+              <h4>Lycée Coumba-lam</h4>
+              <p>Baccalauréat Malien (BAC)</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="education-blog p-4 bg-white shadow rounded text-center">
+              <h5>2018-2019</h5>
+              <span class="bi bi-award-fill text-primary fs-3"></span>
+              <h4>École Pionnière – Kati</h4>
+              <p>Diplôme d'Étude Fondamentale (DEF)</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <section id="portfolio" class="py-5">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h2 class="text-uppercase text-primary">Mon Portfolio</h2>
+        <div class="divider"></div>
+      </div>
+      <div class="row g-4">
+        <div class="col-lg-4 col-md-6">
+          <div class="card h-100 shadow-sm">
+            <img src="images/agence de voyage.webp" class="card-img-top" alt="Projet agence de voyage">
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title text-primary">Agence de Voyage</h5>
+              <p class="card-text">Site vitrine pour une agence de voyage avec une interface claire et attrayante mettant en avant les destinations et offres.</p>
+              <a href="https://aboubacar-tech.github.io/agence-voyage/" class="btn btn-outline-primary mt-auto">Voir le site</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="card h-100 shadow-sm">
+            <img src="image/burgue.png" class="card-img-top" alt="Burger-Code">
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title text-primary">Burger-Code</h5>
+              <p class="card-text">Site vitrine pour un menu de burgers avec un espace administrateur complet.
+                Le côté client est accessible en ligne, tandis que l’interface admin permet de gérer facilement les produits (CRUD).</p>
+              <a href="https://monburguer.lovestoblog.com" class="btn btn-outline-primary mt-auto">Voir le site</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="card h-100 shadow-sm">
+            <img src="image/jeux-de-serpent.jfif" class="card-img-top" alt="Projet jeu de serpent">
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title text-primary">Jeu de Serpent</h5>
+              <p class="card-text">Jeu interactif où le joueur contrôle un serpent pour manger des fruits tout en évitant les obstacles.</p>
+              <a href="https://aboubacar-tech.github.io/jeux-de-serpent/" class="btn btn-outline-primary mt-auto">Voir le site</a>
+            </div>
+          </div>
+        </div>
+       
+        <div class="col-lg-4 col-md-6">
+          <div class="card h-100 shadow-sm">
+            <img src="image/top4.jfif" class="card-img-top" alt="Top actrices">
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title text-primary">Top 5 Actrices</h5>
+              <p class="card-text">Site interactif présentant un classement des meilleures actrices avec description, notes et images.</p>
+              <a href="https://aboubacar-tech.github.io/top-des-artistes/" class="btn btn-outline-primary mt-auto">Voir le site</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="card h-100 shadow-sm">
+            <img src="image/formulaire.png" class="card-img-top" alt="Top actrices">
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title text-primary">Formulaire de contact</h5>
+              <p class="card-text"> Formulaire 100 % fonctionnel développé en PHP. Les messages sont envoyés directement par email avec confirmation côté utilisateur.</p>
+              <a href="projet/formulaire/" class="btn btn-outline-primary mt-auto">Voir le site</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section id="recommendation" class="py-5 ">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h2 class="text-uppercase text-primary">Recommandations</h2>
+        <div class="divider"></div>
+      </div>
+      <div id="carouselRecommendations" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner text-center">
+          <div class="carousel-item active">
+            <blockquote class="blockquote">
+              <p class="mb-4">"Aboubacar a développé pour moi un site de menu de burgers avec une interface simple à utiliser. <br> Il m’a bien expliqué chaque étape, et j’ai particulièrement apprécié son <br> professionnalisme."</p>
+              <footer class="blockquote-footer">Moussa D., <cite title="Google">gérant de food truck</cite></footer>
+            </blockquote>
+          </div>
+          <div class="carousel-item">
+            <blockquote class="blockquote">
+              <p class="mb-4">"Lors de notre formation, Aboubacar était toujours volontaire pour aider les autres et ses projets <br> étaient bien structurés. C’est quelqu’un de <br> sérieux et appliqué."</p>
+              <footer class="blockquote-footer">Mariam K., <cite title="Twitter">camarade de formation </cite></footer>
+            </blockquote>
+          </div>
+          <div class="carousel-item">
+            <blockquote class="blockquote">
+              <p class="mb-4">"Je l’ai sollicité pour un formulaire de contact sur un petit site vitrine. Il a livré rapidement et <br> le formulaire  fonctionne parfaitement. Je recommande sans hésiter."</p>
+              <footer class="blockquote-footer">Ibrahim S., <cite title="Facebook">entrepreneur local</cite></footer>
+            </blockquote>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselRecommendations" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Précédent</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselRecommendations" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Suivant</span>
+        </button>
+      </div>
+    </div>
+  </section>
+<!-- Contact Section -->
+<section id="contact" style="padding: 40px;">
+  <h2 style="text-align: center;">Contactez-moi</h2>
+  <form id="contact-form" role="form">
+    <div class="row">
+      
+      <div class="col-lg-6">
+        <label for="name" class="form-label">Nom <span class="blue">*</span></label>
+        <input id="name" type="text" name="name" class="form-control" placeholder="Votre nom" required>
+        <p class="comments"></p>
+      </div>
+      <div class="col-lg-6">
+        <label for="email" class="form-label">Email <span class="blue">*</span></label>
+        <input id="email" type="email" name="email" class="form-control" placeholder="Votre email" required>
+        <p class="comments"></p>
+      </div>
+      
+      <div class="col-12">
+        <label for="message" class="form-label">Message <span class="blue">*</span></label>
+        <textarea id="message" name="message" class="form-control" placeholder="Votre message" rows="4" required></textarea>
+        <p class="comments"></p>
+      </div>
+      <div class="col-12">
+        <p class="blue"><strong>* Ces informations sont requises.</strong></p>
+        <p id="confirmation" style="text-align: center; color: green; display: none;">
+          Merci ! Votre message a bien été envoyé.
+        </p>
+        <p id="error" style="text-align: center; color: red; display: none;">
+          Une erreur est survenue. Veuillez réessayer.
+        </p>
+        <div style="text-align:center; margin-top:20px;">
+          <input type="submit" class="btn" value="Envoyer">
+        </div>
+      </div>
+    </div>
+  </form>
+</section>
+
+<!-- EmailJS -->
+<script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    emailjs.init("IKYXkSLtvGUFDY1wi"); // Ton USER ID public EmailJS
+
+    const form = document.getElementById('contact-form');
+
+    form.addEventListener('submit', function (e) {
+      e.preventDefault();
+
+      emailjs.sendForm('service_ozuzzhf', 'template_6rfg54k', form)
+        .then(() => {
+          document.getElementById('confirmation').style.display = 'block';
+          document.getElementById('error').style.display = 'none';
+          form.reset();
+        })
+        .catch((error) => {
+          console.error('Erreur EmailJS :', error);
+          document.getElementById('confirmation').style.display = 'none';
+          document.getElementById('error').style.display = 'block';
+        });
+    });
+  });
+</script>
+
+
+
+  <footer class="text-center py-4 bg-dark text-white">
+    <a href="#About" class="d-block mb-2">
+      <i class="bi bi-chevron-up" style="font-size: 1.5rem; color: #0ef;"></i>
+    </a>
+    <h5 class="mb-0">© 2025 Tous droits réservés - ABOUTECH</h5>
+  </footer>
+
+
+
+
+
+
+
+
+
+
+  
+</body>
+</html>
